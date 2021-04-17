@@ -21,6 +21,7 @@ function createButton() {
   let togglePanelButton = document.createElement("BUTTON");
   togglePanelButton.innerHTML = "Toggle Stat Panel";
   togglePanelButton.className = "mlbtv-menu-right__item toggle-stat-panel";
+  togglePanelButton.style.marginTop = "2px";
   togglePanelButton.onclick = toggleStatPanel;
   menuRight.appendChild(togglePanelButton);
 }
